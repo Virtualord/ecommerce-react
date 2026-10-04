@@ -107,6 +107,259 @@ const products = [
     description:
       "1080p HD webcam with auto-focus and built-in microphone. Ideal for video calls and streaming.",
   },
+  {
+    id: 13,
+    name: "Studio Microphone",
+    price: 5499,
+    image:
+      "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?w=500&h=500&fit=crop",
+    description:
+      "Cardioid condenser microphone with shock mount and pop filter. Broadcast-clear voice for podcasts and streaming.",
+  },
+  {
+    id: 14,
+    name: "Noise Cancelling Earbuds",
+    price: 3499,
+    image:
+      "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=500&h=500&fit=crop",
+    description:
+      "True wireless earbuds with active noise cancellation, transparency mode, and a 28-hour charging case.",
+  },
+  {
+    id: 15,
+    name: "Gaming Keyboard",
+    price: 3799,
+    image:
+      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=500&h=500&fit=crop",
+    description:
+      "Tenkeyless mechanical keyboard with hot-swappable switches and per-key RGB lighting.",
+  },
+  {
+    id: 16,
+    name: "Ultrawide Monitor",
+    price: 28999,
+    image:
+      "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=500&h=500&fit=crop",
+    description:
+      "34-inch curved ultrawide display with QHD resolution, 144Hz refresh rate, and USB-C power delivery.",
+  },
+  {
+    id: 17,
+    name: "Portable SSD 1TB",
+    price: 7499,
+    image:
+      "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=500&h=500&fit=crop",
+    description:
+      "Pocket-sized 1TB solid state drive with 1050MB/s transfer speeds and hardware encryption.",
+  },
+  {
+    id: 18,
+    name: "Laptop Backpack",
+    price: 2199,
+    image:
+      "https://images.unsplash.com/photo-1547949003-9792a18a2601?w=500&h=500&fit=crop",
+    description:
+      "Water-resistant 26L commuter backpack with padded laptop sleeve and hidden anti-theft pockets.",
+  },
+  {
+    id: 19,
+    name: "Desk Lamp LED",
+    price: 1799,
+    image:
+      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=500&h=500&fit=crop",
+    description:
+      "Dimmable LED desk lamp with adjustable colour temperature, touch controls, and USB charging port.",
+  },
+  {
+    id: 20,
+    name: "Smart LED Bulbs",
+    price: 1499,
+    image:
+      "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?w=500&h=500&fit=crop",
+    description:
+      "Pack of four Wi-Fi smart bulbs with 16 million colours, schedules, and voice assistant support.",
+  },
+  {
+    id: 21,
+    name: "Bluetooth Keyboard",
+    price: 2299,
+    image:
+      "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=500&h=500&fit=crop",
+    description:
+      "Slim multi-device wireless keyboard that pairs with three devices and switches with one keystroke.",
+  },
+  {
+    id: 22,
+    name: "Fitness Tracker Band",
+    price: 1999,
+    image:
+      "https://images.unsplash.com/photo-1576243345690-4e4b79b63288?w=500&h=500&fit=crop",
+    description:
+      "Slim activity band tracking steps, heart rate, and sleep. Two weeks of battery on a single charge.",
+  },
+  {
+    id: 23,
+    name: "Tablet 11 inch",
+    price: 32999,
+    image:
+      "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=500&h=500&fit=crop",
+    description:
+      "11-inch tablet with a 120Hz laminated display, stylus support, and all-day battery life.",
+  },
+  {
+    id: 24,
+    name: "Wireless Headset",
+    price: 1299,
+    image:
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&h=500&fit=crop",
+    description:
+      "On-ear wireless headset with plush earcups, 40-hour battery, and a foldable travel design.",
+  },
+  {
+    id: 25,
+    name: "Portable Power Bank",
+    price: 2499,
+    image:
+      "https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=500&h=500&fit=crop",
+    description:
+      "20,000mAh power bank with 65W USB-C output, enough to charge a laptop twice over.",
+  },
+  {
+    id: 26,
+    name: "Mechanical Numpad",
+    price: 899,
+    image:
+      "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?w=500&h=500&fit=crop",
+    description:
+      "Detachable mechanical number pad with hot-swappable switches for spreadsheets and data entry.",
+  },
+  {
+    id: 27,
+    name: "Studio Microphone Pro",
+    price: 8499,
+    image:
+      "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=500&h=500&fit=crop",
+    description:
+      "Large-diaphragm condenser microphone with zero-latency monitoring for vocals, instruments, and voice-over.",
+  },
+  {
+    id: 28,
+    name: "HDMI Cable 4K",
+    price: 699,
+    image:
+      "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=500&h=500&fit=crop",
+    description:
+      "Braided 8K-rated HDMI cable with gold-plated connectors and a moulded strain relief built to last.",
+  },
+  {
+    id: 29,
+    name: "Noise Isolating Earbuds",
+    price: 1899,
+    image:
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=500&h=500&fit=crop",
+    description:
+      "In-ear monitors with silicone tips and passive isolation, tuned for commuting and focused work.",
+  },
+  {
+    id: 30,
+    name: "Gaming Monitor 27",
+    price: 22499,
+    image:
+      "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=500&h=500&fit=crop",
+    description:
+      "27-inch 1440p gaming monitor with 180Hz refresh rate, 1ms response, and adaptive sync.",
+  },
+  {
+    id: 31,
+    name: "Wireless Charging Pad",
+    price: 1099,
+    image:
+      "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=500&h=500&fit=crop",
+    description:
+      "15W fast wireless charging pad with a non-slip fabric surface and an indicator that dims at night.",
+  },
+  {
+    id: 32,
+    name: "USB-C Docking Station",
+    price: 6499,
+    image:
+      "https://images.unsplash.com/photo-1625842268584-8f3296236761?w=500&h=500&fit=crop",
+
+    description:
+      "12-in-1 docking station with dual HDMI, gigabit ethernet, and 100W pass-through charging.",
+  },
+  {
+    id: 33,
+    name: "Webcam Pro 4K",
+    price: 8999,
+    image:
+      "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?w=500&h=500&fit=crop",
+    description:
+      "4K streaming webcam with auto-framing, a dual-mic array, and a privacy shutter you can actually slide shut.",
+  },
+  {
+    id: 34,
+    name: "Retro Game Console",
+    price: 4999,
+    image:
+      "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=500&h=500&fit=crop",
+    description:
+      "Handheld retro console with a 3.5-inch screen, 200+ built-in classics, and a rechargeable battery.",
+  },
+  {
+    id: 35,
+    name: "Laptop Sleeve 14",
+    price: 1299,
+    image:
+      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500&h=500&fit=crop",
+    description:
+      "Water-resistant felt laptop sleeve with a magnetic closure and a soft microfibre lining.",
+  },
+  {
+    id: 36,
+    name: "Smart Doorbell",
+    price: 5999,
+    image:
+      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500&h=500&fit=crop",
+    description:
+      "1080p smart doorbell with two-way audio, motion alerts, and a subscription-free local recording option.",
+  },
+  {
+    id: 37,
+    name: "LED Monitor Light Bar",
+    price: 3199,
+    image:
+      "https://images.unsplash.com/photo-1498049794561-7780e7231661?w=500&h=500&fit=crop",
+    description:
+      "Screen-mounted light bar with asymmetric optics that light your desk without glaring on the display.",
+  },
+  {
+    id: 38,
+    name: "Portable SSD 2TB",
+    price: 12499,
+    image:
+      "https://images.unsplash.com/photo-1555617766-c94804975da3?w=500&h=500&fit=crop",
+    description:
+      "Two terabytes of pocket storage with a shockproof shell, ideal for backing up a camera roll.",
+  },
+  {
+    id: 39,
+    name: "Wireless Trackpad",
+    price: 4299,
+    image:
+      "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=500&h=500&fit=crop",
+    description:
+      "Multi-touch wireless trackpad with haptic feedback, gesture support, and USB-C fast charging.",
+  },
+  {
+    id: 40,
+    name: "Smart Home Hub",
+    price: 7999,
+    image:
+      "https://images.unsplash.com/photo-1558089687-f282ffcbc126?w=500&h=500&fit=crop",
+    description:
+      "Central smart home hub that pairs your lights, sensors, and locks over Matter and Thread.",
+  },
 ];
 
 export function getProducts() {
